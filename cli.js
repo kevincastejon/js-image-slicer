@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const ImageSlicer = require('./index');
 let clArgs = process.argv.reduce((acc,elt,i) => {
   if(i>1){
