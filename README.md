@@ -10,12 +10,12 @@ npm i imageslicerjs
 ## Basic usage
 ```
 const ImageSlicer = require('imageslicerjs');
-ImageSlicer.slice('./imagesFolder', ['.png','.jpg'], 16, 16, './output', "FFFFFF");
+ImageSlicer.slice('./imagesFolder', ['.png','.jpg'], 16, 16, './output', {r:255, g:255, b:255, a:255});
 ```
 ## With promise
 ```
 const ImageSlicer = require('imageslicerjs');
-ImageSlicer.slice('./imagesFolder', ['.png','.jpg'], 16, 16, './output', "FFFFFF")
+ImageSlicer.slice('./imagesFolder', ['.png','.jpg'], 16, 16, './output', {r:255, g:255, b:255, a:255})
 .then((numberImagesWritten) => {
   console.log(numberImagesWritten.toString(),'images written');
 }).catch((err) => {
