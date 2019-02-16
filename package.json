@@ -1,6 +1,6 @@
 {
   "name": "imageslicerjs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,9 +8,7 @@
   },
   "author": "lepioo",
   "license": "ISC",
-  "bin": {
-    "imageslicerjs": "./cli.js"
-  },
+  "bin": "./cli.js",
   "dependencies": {
     "jimp": "^0.6.0"
   }
