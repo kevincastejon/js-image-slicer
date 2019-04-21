@@ -24,7 +24,13 @@ ImageSlicer.slice('./imagesFolder', ['.png','.jpg'], 16, 16, './output', {r:255,
 
 ```
 ## CLI usage
-Install globally
+You can use it, without even installing, with npx:
+```
+npx imageslicerjs folder=./imagesFolder extensions=.png.jpg tileWidth=50 tileHeight=50 transparentColor=FFFFFF output=./out
+```
+
+
+Or install it globally
 ```
 npm i imageslicerjs -g
 ```
@@ -32,6 +38,7 @@ Then use 'imageslicerjs' command with the following optional parameters
 ```
 imageslicerjs folder=./imagesFolder extensions=.png.jpg tileWidth=50 tileHeight=50 transparentColor=FFFFFF output=./out
 ```
+
 ## Optional parameters
 __ imagesFolder  : the path to the directory to scan for images. (Default : './')
 
