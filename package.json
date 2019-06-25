@@ -1,12 +1,11 @@
 {
-  "name": "imageslicerjs",
+  "name": "image-slicer",
   "version": "1.0.6",
-  "description": "Install with npm\r ```\r npm i imageslicerjs\r ```",
+  "description": "Slice images into multiple slices of the same dimensions",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "lepioo",
   "license": "ISC",
   "bin": {
     "imageslicerjs": "./cli.js"
@@ -17,10 +16,6 @@
   "directories": {
     "test": "test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lePioo/ImageSlicerJS.git"
-  },
   "keywords": [
     "image",
     "slice",
@@ -28,10 +23,16 @@
     "tile",
     "tilemap",
     "tilesheet",
+    "tileset",
     "animation"
   ],
-  "bugs": {
-    "url": "https://github.com/lePioo/ImageSlicerJS/issues"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevincastejon/js-image-slicer.git"
   },
-  "homepage": "https://github.com/lePioo/ImageSlicerJS#readme"
+  "author": "kevincastejon",
+  "bugs": {
+    "url": "https://github.com/kevincastejon/js-image-slicer/issues"
+  },
+  "homepage": "https://github.com/kevincastejon/js-image-slicer#readme"
 }
