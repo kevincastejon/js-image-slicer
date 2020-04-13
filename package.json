@@ -1,6 +1,6 @@
 {
   "name": "image-slicer",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Slice images into multiple slices of the same dimensions",
   "main": "index.js",
   "scripts": {
